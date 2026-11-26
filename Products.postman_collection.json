@@ -1914,21 +1914,8 @@
           ""
         ]
       }
-    },
-    {
-      "listen": "test",
-      "script": {
-        "type": "text/javascript",
-        "exec": [
-          "",
-          "",
-          "pm.test(\"successful response validation\", function(){",
-          "    pm.response.to.have.status(200)",
-          "});"
-        ]
-      }
     }
-  ],
+     ],
   "variable": [
     {
       "key": "id",
